@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Kushal",
+        "age": 20,
+        "height": 200
+    },
+    {
+        "name": "Kritika",
+        "age": 8,
+        "height": 50
+    }
+]
+console.log(students);

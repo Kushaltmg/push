@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="firstHeading">This is the first header</h1>
+    <h2 id="SecondHeading">This is the second heading</h2>
+    <script>
+        let students = `[
+            {
+                "name": "Kushal",
+                "age": 20,
+                "height": 200
+            },
+            {
+                "name": "Kritika",
+                "age": 8,
+                "height": 50
+            }
+        ]`
+        console.log(JSON.parse(students)[1]);
+    </script>
+    <script src="home.js"></script>
+</body>
+</html>
